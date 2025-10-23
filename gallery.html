@@ -9,6 +9,43 @@
     <link rel="stylesheet" href="./assets/style/app.css" />
     <link rel="stylesheet" href="./assets/style/responsive.css" />
 
+    <style>
+      /* === Gallery Style === */
+      .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+        gap: 1.5rem;
+        margin-top: 1rem;
+      }
+
+      .gallery-item {
+        overflow: hidden;
+        border-radius: 12px;
+        background-color: #f8f8f8;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .gallery-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      }
+
+      .gallery-item img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        display: block;
+      }
+
+      .gallery-item figcaption {
+        padding: 10px;
+        font-size: 0.9rem;
+        text-align: center;
+        color: #555;
+      }
+    </style>
+
     <!-- Font awesome -->
     <script src="https://kit.fontawesome.com/0e362ebcfd.js" crossorigin="anonymous"></script>
   </head>
@@ -55,47 +92,45 @@
       <div class="site-content">
         <!-- Breadcrumb -->
         <div class="site-breadcrumb">
-          <p><a href="./index.html">adrianahaz</a> / <a href="./contact.html">Contact</a></p>
+          <p><a href="./index.html">adrianahaz</a> / <a href="./gallery.html">Gallery</a></p>
         </div>
 
-        <!-- About / konten utama -->
+        <!-- Gallery Section -->
         <article>
-          <h1 class="title">Contact</h1>
-          <p class="site-permalink">
-            <a href="#" data-scroll-to="email">Email </a> •
-            <a href="#" data-scroll-to="sm">Social Media</a>
-          </p>
+          <h1 class="title">Gallery</h1>
+          <p class="site-permalink">Kumpulan foto random yang sering aku abadikan</p>
 
-          <section id="email" class="site-permalink">
-            <h2 class="section-title">Email</h2>
-            <p>
-              Karena banyaknya email yang aku terima, aku hampir tidak bisa membaca semuanya, tetapi
-              aku akan berusaha membaca semuanya. Aku janji:
-            </p>
-            <a href="mailto:adrianalzidan35@gmail.com">adrianalzidan35@gmail.com</a>
-          </section>
+          <section id="gallery">
+            <div class="gallery-grid">
+              <figure class="gallery-item">
+                <img src="./assets/img/date.jpg" alt="Foto bersama pacar" />
+                <figcaption>Kendala waktu lagi ngedate 😭</figcaption>
+              </figure>
 
-          <section id="sm">
-            <h2 class="section-title">Social Media</h2>
-            <p>Cara terbaik untuk mengkontak ku adalah lewat social media 😁.</p>
-            <div class="section-social-media">
-              <ul>
-                <li>
-                  <a href="https://linkedin.com/in/adrhmdlz" target="_blank"
-                    ><i class="fab fa-linkedin-in icon"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="https://instagram.com/adrhmdlz" target="_blank"
-                    ><i class="fab fa-instagram icon"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="https://github.com/adrianahaz" target="_blank"
-                    ><i class="fab fa-github icon"></i
-                  ></a>
-                </li>
-              </ul>
+              <figure class="gallery-item">
+                <img src="./assets/img/pop-mart.jpg" alt="Foto di pop-mart" />
+                <figcaption>Beberapa figure yang dijual di pop-mart</figcaption>
+              </figure>
+
+              <figure class="gallery-item">
+                <img src="./assets/img/photobox-gf.jpg" alt="Photobox dengan loml" />
+                <figcaption>Photobox dengan my loml 😍</figcaption>
+              </figure>
+
+              <figure class="gallery-item">
+                <img src="./assets/img/project-work.jpg" alt="Project yang sedang aku kerjakan" />
+                <figcaption>Project yang sedang aku kerjakan 💻</figcaption>
+              </figure>
+
+              <figure class="gallery-item">
+                <img src="./assets/img/collection.jpg" alt="Salah satu koleksi mainan ku dirumah" />
+                <figcaption>Salah satu koleksi mainan ku dirumah</figcaption>
+              </figure>
+
+              <figure class="gallery-item">
+                <img src="./assets/img/working-stuff.jpg" alt="Dokumentasi ketika bekerja" />
+                <figcaption>Dokumentasi ketika bekerja</figcaption>
+              </figure>
             </div>
           </section>
         </article>

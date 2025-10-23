@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>adrianahaz - Latihan</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/style/app.css" />
+    <link rel="stylesheet" href="./assets/style/responsive.css" />
+
+    <style>
+      .latihan-container {
+        display: grid;
+        gap: 1.5rem;
+        margin-top: 1.5rem;
+      }
+
+      .latihan-card {
+        background: #f8f8f8;
+        border-radius: 12px;
+        padding: 1.2rem 1.5rem;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .latihan-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+      }
+
+      .latihan-title {
+        font-size: 1.1rem;
+        color: #222;
+        margin-bottom: 0.6rem;
+      }
+
+      .latihan-desc {
+        font-size: 0.9rem;
+        color: #555;
+        margin-bottom: 1rem;
+      }
+
+      .latihan-buttons {
+        display: flex;
+        gap: 0.8rem;
+      }
+
+      .btn {
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        border-radius: 8px;
+        font-size: 0.9rem;
+        transition: background 0.3s ease, color 0.3s ease;
+      }
+
+      .repo-btn {
+        background: #222;
+        color: #fff;
+      }
+
+      .repo-btn:hover {
+        background: #444;
+      }
+
+      .demo-btn {
+        background: #f0f0f0;
+        color: #333;
+        border: 1px solid #ccc;
+      }
+
+      .demo-btn:hover {
+        background: #ddd;
+      }
+
+      @media screen and (min-width: 768px) {
+        .latihan-container {
+          grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        }
+      }
+    </style>
+
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/0e362ebcfd.js" crossorigin="anonymous"></script>
+
+    <script>
+      const baseRepURL = 'https://github.com/adrianahaz/pemrograman-web-1/tree/main/pertemuan-';
+      const baseDemURL = 'https://adrianahaz.github.io/pemrograman-web-1/pertemuan-';
+    </script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="site-header">
+      <div class="nav">
+        <!-- Logo -->
+        <div class="nav-logo">
+          <a href="./index.html">adrianahaz</a>
+        </div>
+
+        <!-- Navigation -->
+        <nav>
+          <ul>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./gallery.html">Gallery</a></li>
+            <li><a href="./latihan.html">Latihan</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li>
+              <a href="https://instagram.com/adrhmdlz" target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://linkedin.com/in/adrhmdlz/" target="_blank"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Hamburger menu -->
+        <div class="hamburger">
+          <div class="line-1"></div>
+          <div class="line-2"></div>
+          <div class="line-3"></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main content -->
+    <main class="site-main">
+      <div class="site-content">
+        <!-- Breadcrumb -->
+        <div class="site-breadcrumb">
+          <p><a href="./index.html">adrianahaz</a> / <a href="./latihan.html">Latihan</a></p>
+        </div>
+
+        <!-- Latihan Section -->
+        <article>
+          <h1 class="title">Latihan & Tugas</h1>
+          <p class="site-permalink">
+            Kumpulan latihan dan tugas yang aku kerjakan selama masa perkuliahan 👨‍💻
+          </p>
+
+          <section id="latihan-list" class="latihan-container">
+            <!-- Card 1 -->
+            <div class="latihan-card">
+              <h2 class="latihan-title">Latihan 2 - Basic Tag HTML</h2>
+              <p class="latihan-desc">
+                Membuat halaman web sederhana menggunakan tag-tag dasar HTML seperti heading,
+                paragraf, dan pemisah baris.
+              </p>
+              <div class="latihan-buttons">
+                <a
+                  href="https://github.com/adrianahaz/pemrograman-web-1/tree/main/pertemuan-2"
+                  target="_blank"
+                  class="btn repo-btn"
+                  ><i class="fab fa-github"></i> Repository</a
+                >
+                <a
+                  href="https://adrianahaz.github.io/pemrograman-web-1/pertemuan-2"
+                  target="_blank"
+                  class="btn demo-btn"
+                  ><i class="fa-solid fa-play"></i> Demo</a
+                >
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="latihan-card">
+              <h2 class="latihan-title">Latihan 3 - Format Teks dan Karakter Khusus</h2>
+              <p class="latihan-desc">
+                Belajar menggunakan tag HTML untuk mengatur tampilan teks seperti bold, italic,
+                underline, serta menampilkan karakter khusus.
+              </p>
+              <div class="latihan-buttons">
+                <a
+                  href="https://github.com/adrianahaz/pemrograman-web-1/tree/main/pertemuan-3"
+                  target="_blank"
+                  class="btn repo-btn"
+                  ><i class="fab fa-github"></i> Repository</a
+                >
+                <a
+                  href="https://adrianahaz.github.io/pemrograman-web-1/pertemuan-3"
+                  target="_blank"
+                  class="btn demo-btn"
+                  ><i class="fa-solid fa-play"></i> Demo</a
+                >
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="latihan-card">
+              <h2 class="latihan-title">Latihan 4 – Menampilkan Gambar, Suara, dan Video</h2>
+              <p class="latihan-desc">
+                Menambahkan elemen multimedia ke halaman web seperti gambar, audio, dan video agar
+                lebih menarik dan interaktif.
+              </p>
+              <div class="latihan-buttons">
+                <a
+                  href="https://github.com/adrianahaz/pemrograman-web-1/tree/main/pertemuan-4"
+                  target="_blank"
+                  class="btn repo-btn"
+                  ><i class="fab fa-github"></i> Repository</a
+                >
+                <a
+                  href="https://adrianahaz.github.io/pemrograman-web-1/pertemuan-4"
+                  target="_blank"
+                  class="btn demo-btn"
+                  ><i class="fa-solid fa-play"></i> Demo</a
+                >
+              </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="latihan-card">
+              <h2 class="latihan-title">Latihan 5 – Hyperlink</h2>
+              <p class="latihan-desc">Membuat website portfolio dengan memanfaatkan hyperlink.</p>
+              <div class="latihan-buttons">
+                <a
+                  href="https://github.com/adrianahaz/portfolio"
+                  target="_blank"
+                  class="btn repo-btn"
+                  ><i class="fab fa-github"></i> Repository</a
+                >
+                <a
+                  href="https://adrianahaz.github.io/portfolio"
+                  target="_blank"
+                  class="btn demo-btn"
+                  ><i class="fa-solid fa-play"></i> Demo</a
+                >
+              </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="latihan-card">
+              <h2 class="latihan-title">Latihan 6 – Bullet Numbering dan List</h2>
+              <p class="latihan-desc">
+                Belajar membuat daftar terurut dan tidak terurut dengan tag
+                <code>&lt;ol&gt;</code> dan <code>&lt;ul&gt;</code>, serta menambahkan item dengan
+                <code>&lt;li&gt;</code>.
+              </p>
+              <div class="latihan-buttons">
+                <a
+                  href="https://github.com/adrianahaz/pemrograman-web-1/tree/main/pertemuan-6"
+                  target="_blank"
+                  class="btn repo-btn"
+                  ><i class="fab fa-github"></i> Repository</a
+                >
+                <a
+                  href="https://adrianahaz.github.io/pemrograman-web-1/pertemuan-6"
+                  target="_blank"
+                  class="btn demo-btn"
+                  ><i class="fa-solid fa-play"></i> Demo</a
+                >
+              </div>
+            </div>
+
+            <div class="latihan-card">
+              <h2 class="latihan-title">Latihan 7 – Tabel</h2>
+              <p class="latihan-desc">
+                Membuat dan menata data dalam bentuk tabel menggunakan tag
+                <code>&lt;table&gt;</code>, <code>&lt;thead&gt;</code>, <code>&lt;tbody&gt;</code>,
+                dan <code>&lt;tr&gt;</code>.
+              </p>
+              <div class="latihan-buttons">
+                <a
+                  href="https://github.com/adrianahaz/pemrograman-web-1/tree/main/pertemuan-7"
+                  target="_blank"
+                  class="btn repo-btn"
+                  ><i class="fab fa-github"></i> Repository</a
+                >
+                <a
+                  href="https://adrianahaz.github.io/pemrograman-web-1/pertemuan-7"
+                  target="_blank"
+                  class="btn demo-btn"
+                  ><i class="fa-solid fa-play"></i> Demo</a
+                >
+              </div>
+            </div>
+
+            <div class="latihan-card">
+              <h2 class="latihan-title">Latihan 8 – Form</h2>
+              <p class="latihan-desc">
+                Membuat formulir isian sederhana menggunakan tag <code>&lt;form&gt;</code> dengan
+                elemen input, textarea, dan tombol submit.
+              </p>
+              <div class="latihan-buttons">
+                <a
+                  href="https://github.com/adrianahaz/pemrograman-web-1/tree/main/pertemuan-8"
+                  target="_blank"
+                  class="btn repo-btn"
+                  ><i class="fab fa-github"></i> Repository</a
+                >
+                <a
+                  href="https://adrianahaz.github.io/pemrograman-web-1/pertemuan-8"
+                  target="_blank"
+                  class="btn demo-btn"
+                  ><i class="fa-solid fa-play"></i> Demo</a
+                >
+              </div>
+            </div>
+
+            <div class="latihan-card">
+              <h2 class="latihan-title">Latihan 9 – Frame</h2>
+              <p class="latihan-desc">
+                Mempelajari cara membagi tampilan halaman menjadi beberapa bagian menggunakan elemen
+                <code>&lt;frame&gt;</code>.
+              </p>
+              <div class="latihan-buttons">
+                <a
+                  href="https://github.com/adrianahaz/pemrograman-web-1/tree/main/pertemuan-9"
+                  target="_blank"
+                  class="btn repo-btn"
+                  ><i class="fab fa-github"></i> Repository</a
+                >
+                <a
+                  href="https://adrianahaz.github.io/pemrograman-web-1/pertemuan-9"
+                  target="_blank"
+                  class="btn demo-btn"
+                  ><i class="fa-solid fa-play"></i> Demo</a
+                >
+              </div>
+            </div>
+          </section>
+        </article>
+      </div>
+
+      <div class="site-aside">
+        <!-- Sidebar content -->
+        <aside>
+          <!-- Tentang penulis & pembuat -->
+          <header>
+            <h3 class="sidebar-title">Tentang Pembuat</h3>
+            <!-- Sidebar profile -->
+            <div class="sidebar-profile">
+              <figure class="profile-picture">
+                <img src="./assets/img/profile-picture.jpg" alt="Profile Picture" />
+              </figure>
+
+              <p class="site-permalink justify-text">
+                Namaku <span>Adrian Ahmad Al Zidan</span>, penggemar teknologi berusia 20 tahun dari
+                Jakarta, Indonesia. Saat ini aku fokus pada pengembangan web, terutama Pengembangan
+                Frontend. <a href="./about.html">Read more...</a>
+              </p>
+            </div>
+          </header>
+
+          <!-- Sosial media -->
+          <article id="social-media">
+            <h3 class="sidebar-title">Connect With Me</h3>
+            <div class="sidebar-icon">
+              <ul>
+                <li>
+                  <a href="https://linkedin.com/in/adrhmdlz" target="_blank"
+                    ><i class="fab fa-linkedin-in icon"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="mailto:adrianalzidan35@gmail.com" target="_blank"
+                    ><i class="far fa-envelope icon"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://instagram.com/adrhmdlz" target="_blank"
+                    ><i class="fab fa-instagram icon"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://github.com/adrianahaz" target="_blank"
+                    ><i class="fab fa-github icon"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Monetasi -->
+          <article>
+            <h4 class="sidebar-title">Support Us</h4>
+            <div class="sidebar-icon">
+              <ul>
+                <li>
+                  <a href="https://www.buymeacoffee.com/"
+                    ><i class="fa-solid fa-mug-hot icon"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://trakteer.id/"><i class="fa-solid fa-jar icon"></i></a>
+                </li>
+                <li>
+                  <a href="https://saweria.co/"
+                    ><i class="fa-solid fa-hand-holding-dollar icon"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </article>
+        </aside>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <!-- Footer navbar -->
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="./index.html">Blog</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Footer copyright -->
+      <p>&copy; 2025 Adrhmdlz All rights reserved.</p>
+    </footer>
+
+    <script src="./script/app.js" type="text/javascript"></script>
+  </body>
+</html>
