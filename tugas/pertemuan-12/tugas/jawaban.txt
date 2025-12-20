@@ -1,0 +1,2 @@
+1. Apa yang dimaksud Class dalam CSS? 
+-> Dalam CSS, Class adalah sebuah atribut yang digunakan untuk memberikan gaya (styling) pada satu atau beberapa elemen HTML secara spesifik. Berbeda dengan selektor tag (seperti h1 atau p) yang memengaruhi semua elemen sejenis, Class memungkinkan Anda memilih elemen mana saja yang ingin dihias tanpa memengaruhi yang lain.

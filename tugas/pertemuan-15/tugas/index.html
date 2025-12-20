@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Program Interaktif JS</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        padding: 20px;
+        line-height: 1.6;
+      }
+      .container {
+        max-width: 400px;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+      }
+      input {
+        width: 100%;
+        padding: 8px;
+        margin: 10px 0;
+        display: block;
+        box-sizing: border-box;
+      }
+      button {
+        background-color: #28a745;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        cursor: pointer;
+        border-radius: 4px;
+      }
+      button:hover {
+        background-color: #218838;
+      }
+      #hasil {
+        margin-top: 20px;
+        font-weight: bold;
+        color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Form Pendaftaran</h2>
+      <form id="pendaftaranForm">
+        <label>Nama Lengkap:</label>
+        <input type="text" id="namaInput" placeholder="Masukkan nama..." required />
+
+        <label>Kota Asal:</label>
+        <input type="text" id="kotaInput" placeholder="Masukkan kota..." required />
+
+        <button type="button" onclick="prosesData()">Daftar Sekarang</button>
+      </form>
+
+      <div id="hasil"></div>
+    </div>
+
+    <script>
+      alert('Selamat datang di Program Interaktif!');
+
+      function prosesData() {
+        const nama = document.getElementById('namaInput').value;
+        const kota = document.getElementById('kotaInput').value;
+
+        if (nama === '' || kota === '') {
+          alert('Harap isi semua kolom pada form!');
+          return;
+        }
+
+        let usia = prompt('Halo ' + nama + ', berapa usia Anda saat ini?');
+
+        let setuju = confirm(
+          'Apakah Anda yakin data berikut sudah benar?\nNama: ' +
+            nama +
+            '\nKota: ' +
+            kota +
+            '\nUsia: ' +
+            usia
+        );
+
+        if (setuju) {
+          document.getElementById('hasil').innerHTML =
+            'Pendaftaran Berhasil!<br>Selamat bergabung, ' +
+            nama +
+            ' dari ' +
+            kota +
+            ' (Usia: ' +
+            usia +
+            ' tahun).';
+
+          alert('Data Anda telah berhasil disimpan!');
+        } else {
+          alert('Pendaftaran dibatalkan.');
+          document.getElementById('hasil').innerHTML = 'Pendaftaran dibatalkan oleh pengguna.';
+        }
+      }
+    </script>
+  </body>
+</html>

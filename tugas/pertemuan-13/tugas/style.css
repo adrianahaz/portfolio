@@ -1,0 +1,128 @@
+/* Reset Dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navigasi */
+nav {
+  background-color: #ffffff;
+  padding: 15px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-container {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.logo span {
+  color: #4a90e2;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+/* Hero Section */
+.hero {
+  height: 400px;
+  background: linear-gradient(rgba(74, 144, 226, 0.8), rgba(44, 62, 80, 0.8)),
+    url('https://images.unsplash.com/photo-1498050108023-c5249f4df085') center/cover;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.highlight {
+  color: #ffcc00;
+}
+
+/* Button System menggunakan Class */
+.btn {
+  display: inline-block;
+  padding: 10px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-primary {
+  background-color: #ffcc00;
+  color: #333;
+}
+
+.btn-secondary {
+  border: 2px solid white;
+  color: white;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  opacity: 0.9;
+}
+
+/* Grid System menggunakan DIV */
+.container {
+  width: 85%;
+  margin: 50px auto;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.card-icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 50px;
+}

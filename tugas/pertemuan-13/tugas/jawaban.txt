@@ -1,0 +1,4 @@
+1. Apa bedanya DIV dan SPAN?
+-> DIV diibaratkan sebagai sebuah kotak kardus besar. Setiap kali digunakan, kotak ini akan diletakkan di lantai dan secara otomatis memenuhi ruang dari ujung kiri hingga ujung kanan. Karena ukurannya yang memenuhi lebar ruangan, benda apa pun yang diletakkan setelahnya terpaksa ditaruh di atas atau di bawahnya, bukan di sampingnya. Ini menjadikannya elemen utama untuk membangun struktur besar atau memisahkan bab-bab penting dalam sebuah halaman.
+
+Sementara itu, SPAN diibaratkan sebagai selembar stiker transparan. Kehadirannya tidak akan memindahkan barang-barang di sekitarnya. Stiker ini hanya menempel pada objek kecil, seperti satu kata di tengah kalimat, untuk memberikan warna atau tanda khusus tanpa mengganggu aliran baris teks yang sudah ada. SPAN sangat efektif digunakan ketika fokusnya hanyalah mengubah tampilan detail kecil tanpa merusak susunan paragraf.
