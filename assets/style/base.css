@@ -1,0 +1,11 @@
+:root {
+    --border-color: #bebecd;
+    --border-hover-color: #0066fe;
+}
+
+body {
+    background: rgba(164, 164, 164, 0.2);
+    display: grid;
+    grid-template-columns: 10;
+    padding: 30px;
+}
