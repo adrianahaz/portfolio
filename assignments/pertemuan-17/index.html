@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Analisis Deret Bilangan</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.8;
+        margin: 40px;
+      }
+      .hasil-container {
+        border: 1px solid #ccc;
+        padding: 20px;
+        width: fit-content;
+        background-color: #f9f9f9;
+      }
+      h2 {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="hasil-container">
+      <h2>Hasil Analisis Deret Bilangan</h2>
+      <p>Nilai Awal : <span id="outAwal"></span></p>
+      <p>Nilai Akhir : <span id="outAkhir"></span></p>
+      <p>Deret yang tampil : <span id="outDeret"></span></p>
+      <p>Jumlah deret bilangan : <span id="outBanyak"></span> bilangan</p>
+      <p>Jumlah nilai bilangan tersebut : <span id="outTotal"></span></p>
+    </div>
+
+    <script>
+      let awal = parseInt(prompt('Masukkan Nilai Awal :'));
+      let akhir = parseInt(prompt('Masukkan Nilai Akhir :'));
+
+      let deret = [];
+      let totalNilai = 0;
+
+      // Syarat: Bilangan Genap (i % 2 == 0) DAN Habis dibagi 3 (i % 3 == 0)
+      for (let i = awal; i <= akhir; i++) {
+        if (i % 2 === 0 && i % 3 === 0) {
+          deret.push(i);
+          totalNilai += i;
+        }
+      }
+
+      document.getElementById('outAwal').innerText = awal;
+      document.getElementById('outAkhir').innerText = akhir;
+      document.getElementById('outDeret').innerText = deret.join(', ');
+      document.getElementById('outBanyak').innerText = deret.length;
+      document.getElementById('outTotal').innerText = totalNilai;
+    </script>
+  </body>
+</html>

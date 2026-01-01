@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistem Menu Terpadu</title>
+    <style>
+      body {
+        font-family: 'Courier New', Courier, monospace;
+        padding: 20px;
+        line-height: 1.6;
+        background-color: #f4f4f9;
+      }
+      .container {
+        max-width: 600px;
+        margin: auto;
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      h2,
+      h3 {
+        text-decoration: underline;
+        text-align: center;
+      }
+      .menu-list {
+        list-style: none;
+        padding: 0;
+      }
+      .menu-list li {
+        margin: 10px 0;
+        cursor: pointer;
+        color: #0056b3;
+        font-weight: bold;
+      }
+      .menu-list li:hover {
+        color: #003d80;
+      }
+      .result-area {
+        margin-top: 30px;
+        border-top: 2px dashed #ccc;
+        padding-top: 20px;
+        display: none;
+      }
+      .underline {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Menu Pilihan :</h2>
+      <ul class="menu-list">
+        <li onclick="pilihMenu(1)">[1] Menghitung Kalkulator</li>
+        <li onclick="pilihMenu(2)">[2] Menghitung Luas Trapesium</li>
+        <li onclick="pilihMenu(3)">[3] Menghitung Deret</li>
+      </ul>
+      <p>Pilihan Anda : <span id="pilihanTampil">....</span></p>
+
+      <div id="resultArea" class="result-area">
+        <div id="contentBox"></div>
+      </div>
+    </div>
+
+    <script>
+      function pilihMenu(pilihan) {
+        document.getElementById('pilihanTampil').innerText = pilihan;
+        document.getElementById('resultArea').style.display = 'block';
+        const box = document.getElementById('contentBox');
+        box.innerHTML = '';
+
+        if (pilihan === 1) {
+          kalkulatorSimple();
+        } else if (pilihan === 2) {
+          hitungTrapesium();
+        } else if (pilihan === 3) {
+          hitungDeret();
+        } else {
+          alert('Pilihan tidak tersedia');
+        }
+      }
+
+      function kalkulatorSimple() {
+        const a = parseFloat(prompt('Masukkan angka pertama:'));
+        const b = parseFloat(prompt('Masukkan angka kedua:'));
+        const op = prompt('Masukkan operator (+, -, *, /):');
+        let hasil;
+
+        switch (op) {
+          case '+':
+            hasil = a + b;
+            break;
+          case '-':
+            hasil = a - b;
+            break;
+          case '*':
+            hasil = a * b;
+            break;
+          case '/':
+            hasil = a / b;
+            break;
+          default:
+            hasil = 'Operator salah';
+        }
+
+        document.getElementById('contentBox').innerHTML = `
+            <h3>Kalkulator Sederhana</h3>
+            <p>Angka 1: ${a}</p>
+            <p>Angka 2: ${b}</p>
+            <p>Operator: ${op}</p>
+            <p><strong>Hasil: ${hasil}</strong></p>
+        `;
+      }
+
+      function hitungTrapesium() {
+        let garisAtas = 10;
+        let garisBawah = 15;
+        let tinggi = 8;
+        let luas = 0.5 * (garisAtas + garisBawah) * tinggi;
+
+        document.getElementById('contentBox').innerHTML = `
+            <h3>Menghitung Luas Trapesium</h3>
+            <p class="underline">Diketahui :</p>
+            <p>&nbsp;&nbsp;Garis Atas : ${garisAtas} Cm</p>
+            <p>&nbsp;&nbsp;Garis Bawah : ${garisBawah} Cm</p>
+            <p>&nbsp;&nbsp;Tinggi : ${tinggi} Cm</p>
+            <p class="underline">Maka :</p>
+            <p>&nbsp;&nbsp;Luas : 0.5 * (${garisAtas} + ${garisBawah}) * ${tinggi} = <strong>${luas} Cm²</strong></p>
+        `;
+      }
+
+      function hitungDeret() {
+        let awal = parseInt(prompt('Masukkan Nilai Awal :'));
+        let akhir = parseInt(prompt('Masukkan Nilai Akhir :'));
+        let deret = [];
+        let total = 0;
+
+        for (let i = awal; i <= akhir; i++) {
+          if (i % 2 === 0 && i % 3 === 0) {
+            deret.push(i);
+            total += i;
+          }
+        }
+
+        document.getElementById('contentBox').innerHTML = `
+            <h3>Hasil Analisis Deret Bilangan</h3>
+            <p>Nilai Awal : ${awal}</p>
+            <p>Nilai Akhir : ${akhir}</p>
+            <p>Deret yang tampil : ${deret.join(' ')}</p>
+            <p>Jumlah deret bilangan : ${deret.length} bilangan</p>
+            <p>Jumlah nilai bilangan tersebut : ${total}</p>
+        `;
+      }
+    </script>
+  </body>
+</html>

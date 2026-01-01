@@ -1,0 +1,5 @@
+1. Apa gunanya CSS?
+-> CSS (Cascading Style Sheet) digunakan untuk mengatur tampilan dan tata letak
+halaman website, seperti warna, jenis huruf, ukuran teks, jarak, dan posisi
+elemen HTML. Dengan menggunakan CSS, tampilan website menjadi lebih rapi,
+menarik, dan mudah dikelola tanpa harus mengubah struktur HTML.

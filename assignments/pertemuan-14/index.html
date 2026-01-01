@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Penghitung Luas Trapesium</title>
+    <style>
+      body {
+        line-height: 1.6;
+        margin: 40px;
+      }
+      .underline {
+        text-decoration: underline;
+      }
+      .center {
+        text-align: center;
+        max-width: 400px;
+      }
+      .result-box {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="center">
+      <h3 class="underline">Menghitung Luas Trapesium</h3>
+    </div>
+
+    <div class="result-box">
+      <p class="underline">Diketahui :</p>
+      <p>&nbsp;&nbsp;Garis Atas &nbsp;&nbsp;: <span id="atas"></span> Cm</p>
+      <p>&nbsp;&nbsp;Garis Bawah : <span id="bawah"></span> Cm</p>
+      <p>&nbsp;&nbsp;Tinggi &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <span id="tinggi"></span> Cm</p>
+
+      <p class="underline">Maka :</p>
+      <p>
+        &nbsp;&nbsp;Luas &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <span id="proses"></span> =
+        <strong><span id="hasil"></span> Cm²</strong>
+      </p>
+    </div>
+
+    <script>
+      let garisAtas = 10;
+      let garisBawah = 15;
+      let tinggi = 8;
+
+      let luas = 0.5 * (garisAtas + garisBawah) * tinggi;
+
+      document.getElementById('atas').innerText = garisAtas;
+      document.getElementById('bawah').innerText = garisBawah;
+      document.getElementById('tinggi').innerText = tinggi;
+
+      document.getElementById(
+        'proses'
+      ).innerText = `0.5 * (${garisAtas} + ${garisBawah}) * ${tinggi}`;
+      document.getElementById('hasil').innerText = luas;
+    </script>
+  </body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar Embedded CSS</title>
+
+    <style>
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f9;
+        color: #333;
+      }
+
+      header {
+        background-color: #4a90e2;
+        color: white;
+        padding: 2rem;
+        text-align: center;
+      }
+
+      .container {
+        width: 80%;
+        margin: 20px auto;
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      h2 {
+        color: #4a90e2;
+        border-bottom: 2px solid #eee;
+        padding-bottom: 10px;
+      }
+
+      .code-box {
+        background: #272822;
+        color: #f8f8f2;
+        padding: 15px;
+        border-radius: 5px;
+        font-family: 'Courier New', Courier, monospace;
+        overflow-x: auto;
+      }
+
+      .highlight {
+        color: #e6db74;
+        font-weight: bold;
+      }
+
+      footer {
+        text-align: center;
+        padding: 20px;
+        font-size: 0.9rem;
+        color: #777;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Tutorial Embedded CSS</h1>
+      <p>Gaya tampilan halaman ini diatur menggunakan Internal Stylesheet</p>
+    </header>
+
+    <div class="container">
+      <h2>Apa itu Embedded CSS?</h2>
+      <p>
+        **Embedded CSS** (atau Internal CSS) adalah metode penulisan kode CSS yang diletakkan di
+        dalam tag <code>&lt;style&gt;</code>. Tag ini biasanya ditempatkan di dalam bagian
+        <code>&lt;head&gt;</code> pada dokumen HTML.
+      </p>
+
+      <h3>Contoh Penulisan:</h3>
+      <div class="code-box">
+        &lt;head&gt;<br />
+        &nbsp;&nbsp;&lt;style&gt;<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;<span class="highlight">body { background-color: linen; }</span
+        ><br />
+        &nbsp;&nbsp;&nbsp;&nbsp;<span class="highlight">h1 { color: maroon; }</span><br />
+        &nbsp;&nbsp;&lt;/style&gt;<br />
+        &lt;/head&gt;
+      </div>
+
+      <h3>Kapan Menggunakannya?</h3>
+      <ul>
+        <li>Ketika Anda hanya ingin memberikan gaya pada **satu halaman spesifik**.</li>
+        <li>Jika Anda tidak ingin membuat file .css eksternal yang terpisah.</li>
+        <li>Untuk demo cepat atau pengujian kode (seperti halaman ini!).</li>
+      </ul>
+    </div>
+
+    <footer>Dibuat untuk keperluan belajar HTML & CSS</footer>
+  </body>
+</html>

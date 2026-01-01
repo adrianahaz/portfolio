@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator Sederhana</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form class="calculator">
+      <h2>Kalkulator</h2>
+
+      <input type="number" id="angka1" class="input" placeholder="Angka pertama" required />
+
+      <select id="operator" class="input" required>
+        <option value="">Pilih operator</option>
+        <option value="+">+</option>
+        <option value="-">−</option>
+        <option value="*">×</option>
+        <option value="/">÷</option>
+      </select>
+
+      <input type="number" id="angka2" class="input" placeholder="Angka kedua" required />
+
+      <button type="submit" class="input-button">Hitung Hasil</button>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>

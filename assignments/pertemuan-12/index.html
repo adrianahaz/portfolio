@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar External CSS</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Tutorial External CSS</h1>
+      <p>Gaya tampilan halaman ini sekarang diatur menggunakan External Stylesheet</p>
+    </header>
+
+    <div class="container">
+      <h2>Apa itu External CSS?</h2>
+      <p>
+        **External CSS** adalah metode di mana kode CSS ditulis di file terpisah dengan ekstensi
+        <code>.css</code>, lalu dihubungkan menggunakan tag <code>&lt;link&gt;</code> di dalam
+        <code>&lt;head&gt;</code>.
+      </p>
+
+      <h3>Cara Menghubungkan:</h3>
+      <div class="code-box">
+        &lt;head&gt;<br />
+        &nbsp;&nbsp;&lt;link rel="stylesheet" href="style.css"&gt;<br />
+        &lt;/head&gt;
+      </div>
+
+      <h3>Keuntungan External CSS:</h3>
+      <ul>
+        <li>**Reusability**: Satu file CSS bisa digunakan untuk banyak halaman HTML.</li>
+        <li>**Organisasi**: Kode HTML jadi lebih bersih dan fokus pada struktur konten.</li>
+        <li>
+          **Caching**: Browser menyimpan file CSS sehingga loading website lebih cepat saat pindah
+          halaman.
+        </li>
+      </ul>
+    </div>
+
+    <footer>Dibuat untuk keperluan belajar HTML & CSS</footer>
+  </body>
+</html>
