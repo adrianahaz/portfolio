@@ -21,3 +21,9 @@
 .ui-button span {
   font-size: 12px;
 }
+
+@media screen and (min-width: 768px) {
+  .ui-button span {
+    font-size: 14px;
+  }
+}

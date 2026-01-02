@@ -23,6 +23,11 @@
 }
 
 @media screen and (min-width: 768px) {
+  .ui-capsule--icon {
+    width: 10px;
+    height: 10px;
+  }
+
   .ui-capsule--label {
     font-size: 12px;
   }
