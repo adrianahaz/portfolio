@@ -1,0 +1,23 @@
+.ui-button {
+  display: flex;
+  align-items: center;
+  background-color: var(--bg-button-color);
+  width: fit-content;
+  padding: 0 0 0 10px;
+  border-radius: 10px;
+  gap: 10px;
+  border: 1px solid var(--stroke-button-color);
+}
+
+.ui-button:hover {
+  box-shadow: 0px 0px 15px 0px var(--bg-button-color);
+}
+
+.ui-button__icon {
+  padding: 10px;
+  border-left: 1px solid var(--stroke-button-color);
+}
+
+.ui-button span {
+  font-size: 12px;
+}
