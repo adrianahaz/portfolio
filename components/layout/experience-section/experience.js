@@ -8,27 +8,27 @@ class ExperienceSection extends HTMLElement {
 
     this.innerHTML = `
       <ui-wrapper>
-        <div class="experience-section">
-          <div class="section-title">
-            <span class="section-title__icon"></span>
-            <span class="section-title__label">Recent Work</span>
+        <div class="experience">
+          <div class="experience__header">
+            <span class="experience__icon"></span>
+            <h2 class="experience__label">Recent Work</h2>
           </div>
 
-          <div class="experience-section__list">
+          <div class="experience__list">
             ${this.data
               .map(
                 (item) => `
-              <div class="experience-item">
-                <div class="experience-item-header">
-                  <div class="experience-item-title">
-                    <span>${item.title}</span>
+                  <div class="experience__item">
+                    <div class="experience__item-header">
+                      <div class="experience__item-title">
+                        <span class="experience__item-title-text">${item.title}</span>
+                      </div>
+                      <div class="experience__item-date">
+                        <span class="experience__item-date-text">${item.date}</span>
+                      </div>
+                    </div>
                   </div>
-                  <div class="experience-item-date">
-                    <span>${item.date}</span>
-                  </div>
-                </div>
-              </div>
-            `
+                `
               )
               .join('')}
           </div>

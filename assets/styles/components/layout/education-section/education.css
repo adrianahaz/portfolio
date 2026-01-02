@@ -1,50 +1,51 @@
-.experience {
+.education {
+  flex: 1;
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
 
-.experience__header {
+.education__header {
   display: flex;
   align-items: center;
   width: fit-content;
   gap: 10px;
 }
 
-.experience__icon {
+.education__icon {
   width: 7px;
   height: 7px;
   border-radius: 50%;
   background-color: #c0c0c0;
 }
 
-.experience__label {
+.education__label {
   font-size: 18px;
   color: #c0c0c0;
 }
 
-.experience__list {
+.education__list {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.experience__item-title {
+.education__item-title {
   font-size: 16px;
   color: #ffffff;
 }
 
-.experience__item-date {
+.education__item-date {
   font-size: 16px;
   color: #c0c0c0;
 }
 
 @media screen and (min-width: 768px) {
-  .experience__label {
+  .education__label {
     font-size: 20px;
   }
 
-  .experience__item-title {
+  .education__item-title {
     font-size: 18px;
   }
 }

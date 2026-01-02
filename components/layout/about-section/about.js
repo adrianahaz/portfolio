@@ -18,7 +18,7 @@ class AboutSection extends HTMLElement {
   typeEffect() {
     const roles = this.data.roles;
     const currentRoles = roles[this.roleIndex];
-    const targetElement = this.querySelector('.about-section__roles');
+    const targetElement = this.querySelector('.about__roles');
 
     if (!targetElement) return;
 
@@ -49,7 +49,7 @@ class AboutSection extends HTMLElement {
 
     this.innerHTML = `
       <ui-wrapper>
-        <div class="about-section">
+        <div class="about">
           ${this.renderHeader()}
           ${this.renderContent()}
         </div>
@@ -59,27 +59,27 @@ class AboutSection extends HTMLElement {
 
   renderHeader() {
     return `
-      <div class="about-section__header">
+      <div class="about__header">
         <ui-capsule label="available for job"></ui-capsule>
-        <h2 class="about-section__roles"></h2>
+        <h2 class="about__roles"></h2>
       </div>
     `;
   }
 
   renderContent() {
     return `
-      <div class="about-section__content">
-        <div class="about-section__content-avatar">
+      <div class="about__content">
+        <div class="about__avatar">
           <img src="${this.data.avatarImg}" alt="Avatar"></img>
         </div>
 
-        <div class="about-section__content-detail">
-          <div class="about-section__content-detail-info">
-            <h3>${this.data.name}</h3>
-            <p>${this.data.description}</p>
+        <div class="about__detail">
+          <div class="about__info">
+            <h3 class="about__name">${this.data.name}</h3>
+            <p class="about__description">${this.data.description}</p>
           </div>
 
-          <div class="about-section__content-detail-cta">
+          <div class="about__cta">
             <ui-button bg-color="E63E21" stroke-color="000000" label="Hire me" icon="plus"></ui-button>
             <ui-button label="Copy Email" icon="copy"></ui-button>
           </div>
