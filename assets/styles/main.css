@@ -1,0 +1,12 @@
+@import 'reset.css';
+@import 'base.css';
+
+@import './components/ui/navbar/navbar.css';
+@import './components/ui/wrapper/wrapper.css';
+@import './components/ui/capsule/capsule.css';
+@import './components/ui/button/button.css';
+
+@import './components/layout/about-section/about.css';
+@import './components/layout/experience-section/experience.css';
+
+@import './components/pages/home.css';
