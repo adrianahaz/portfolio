@@ -8,5 +8,9 @@
 
 @import './components/layout/about-section/about.css';
 @import './components/layout/experience-section/experience.css';
+@import './components/layout/project-section/project.css';
+@import './components/layout/education-section/education.css';
+@import './components/layout/stack-section/stack.css';
+@import './components/layout/details-section/details.css';
 
 @import './components/pages/home.css';
