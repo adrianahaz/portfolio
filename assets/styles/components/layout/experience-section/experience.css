@@ -1,0 +1,26 @@
+.experience-section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.section-title__label {
+  font-size: 16px;
+  color: #c0c0c0;
+}
+
+.experience-section__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.experience-item-title {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.experience-item-date {
+  font-size: 15px;
+  color: #c0c0c0;
+}
