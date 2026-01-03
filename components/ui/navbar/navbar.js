@@ -28,9 +28,9 @@ class UiNavbar extends HTMLElement {
           </button>
 
           <div class="menu-list">
-            <a href="/">Home</a>
-            <a href="/projects.html">Projects</a>
-            <a href="/gallery.html">Gallery</a>
+            <a href="./">Home</a>
+            <a href="./projects.html">Projects</a>
+            <a href="./gallery.html">Gallery</a>
           </div>
         </div>
 

@@ -5,7 +5,7 @@ const homeData = {
     description:
       'Tech enthusiast, creative soul, and constant learner. I love discovering new tech and making something fun out of it.',
     email: 'adrianahmad@example.com',
-    avatarImg: '/assets/images/avatar.png',
+    avatarImg: './assets/images/avatar.png',
   },
   experience: [
     {
@@ -24,19 +24,19 @@ const homeData = {
   projects: [
     {
       title: 'Daily Dua',
-      image: '/assets/images/daily-dua.jpg',
+      image: './assets/images/daily-dua.jpg',
       link: 'https://daily-dua-omega.vercel.app/',
       repo: 'https://github.com/adrianahaz/daily-dua',
     },
     {
       title: 'Makan Kuy',
-      image: '/assets/images/makan-kuy.jpg',
+      image: './assets/images/makan-kuy.jpg',
       link: 'https://makankuy-restaurant-app.netlify.app/',
       repo: 'https://github.com/adrianahaz/restaurant-app-dicoding',
     },
     {
       title: 'Bookshelf API',
-      image: '/assets/images/bookshelf-api.jpg',
+      image: './assets/images/bookshelf-api.jpg',
       link: 'https://github.com/adrianahaz/nodejs-bookshelf-api',
       repo: 'https://github.com/adrianahaz/nodejs-bookshelf-api',
     },
