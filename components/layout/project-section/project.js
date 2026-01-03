@@ -12,7 +12,7 @@ class ProjectSection extends HTMLElement {
     const projectCards = this.data
       .map(
         (project) => `
-        <a href="${project.url}" target="_blank" class="project-wrapper">
+        <a href="${project.link}" target="_blank" class="project-wrapper">
           <img src="${project.image}" alt="${project.title}">
             <span class="project-title">${project.title}</span>
           </img>

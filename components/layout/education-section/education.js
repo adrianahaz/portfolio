@@ -19,9 +19,12 @@ class EducationSection extends HTMLElement {
               .map(
                 (item) => `
                   <div class="education__item">
-                  <div class="education__item-header">
-                  <div class="education__item-title">
-                  <span class="education__item-title-text">${item.title}</span>
+                    <div class="education__item-header">
+                      <div class="education__item-title">
+                        <span class="education__item-title-text">${item.title}</span>
+                      </div>
+                      <div class="education__item-title">
+                        <span class="education__item-title-text">${item.institution}</span>
                       </div>
                       <div class="education__item-date">
                         <span class="education__item-date-text">${item.date}</span>
