@@ -28,17 +28,21 @@ const dataObject = {
       description:
         'Membuat halaman web sederhana menggunakan tag-tag dasar HTML seperti heading, paragraf, dan pemisah baris.',
       link: './assignments/pertemuan-2',
-      repo: BASE_URL + 'assignments/pertemuan-2',
+      repo: BASE_URL + 'tree/main/assignments/pertemuan-2',
       practice: [
         {
           title: 'Latihan 1',
           link: './assignments/pertemuan-2/latihan/latihan-1.html',
-          repo: BASE_URL + 'assignments/pertemuan-2/latihan/latihan-1.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-2/latihan/latihan-1.html',
         },
         {
           title: 'Latihan 2',
           link: './assignments/pertemuan-2/latihan/latihan-2.html',
-          repo: BASE_URL + 'assignments/pertemuan-2/latihan/latihan-2.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-2/latihan/latihan-2.html',
         },
       ],
     },
@@ -48,17 +52,21 @@ const dataObject = {
       description:
         'Belajar menggunakan tag HTML untuk mengatur tampilan teks seperti bold, italic, underline, serta menampilkan karakter khusus.',
       link: './assignments/pertemuan-3',
-      repo: BASE_URL + 'assignments/pertemuan-3',
+      repo: BASE_URL + 'tree/main/assignments/pertemuan-3',
       practice: [
         {
           title: 'Latihan 1',
           link: './assignments/pertemuan-3/latihan/latihan-1.html',
-          repo: BASE_URL + 'assignments/pertemuan-3/latihan/latihan-1.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-3/latihan/latihan-1.html',
         },
         {
           title: 'Latihan 2',
           link: './assignments/pertemuan-3/latihan/latihan-2.html',
-          repo: BASE_URL + 'assignments/pertemuan-3/latihan/latihan-2.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-3/latihan/latihan-2.html',
         },
       ],
     },
@@ -68,22 +76,28 @@ const dataObject = {
       description:
         'Menambahkan elemen multimedia ke halaman web seperti gambar, audio, dan video agar lebih menarik dan interaktif.',
       link: './assignments/pertemuan-4',
-      repo: BASE_URL + 'assignments/pertemuan-4',
+      repo: BASE_URL + 'tree/main/assignments/pertemuan-4',
       practice: [
         {
           title: 'Latihan 1',
           link: './assignments/pertemuan-4/latihan/latihan-1.html',
-          repo: BASE_URL + 'assignments/pertemuan-4/latihan/latihan-1.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-4/latihan/latihan-1.html',
         },
         {
           title: 'Latihan 2',
           link: './assignments/pertemuan-4/latihan/latihan-2.html',
-          repo: BASE_URL + 'assignments/pertemuan-4/latihan/latihan-2.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-4/latihan/latihan-2.html',
         },
         {
           title: 'Latihan 3',
           link: './assignments/pertemuan-4/latihan/latihan-3.html',
-          repo: BASE_URL + 'assignments/pertemuan-4/latihan/latihan-3.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-4/latihan/latihan-3.html',
         },
       ],
     },
@@ -97,7 +111,9 @@ const dataObject = {
         {
           title: 'Latihan 1',
           link: './assignments/pertemuan-5/latihan/latihan-1.html',
-          repo: BASE_URL + 'assignments/pertemuan-5/latihan/latihan-1.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-5/latihan/latihan-1.html',
         },
       ],
     },
@@ -107,17 +123,21 @@ const dataObject = {
       description:
         'Belajar membuat daftar terurut dan tidak terurut dengan tag &lt;ol&gt; dan &lt;ul&gt;, serta menambahkan item dengan &lt;li&gt;.',
       link: './assignments/pertemuan-6',
-      repo: BASE_URL + 'assignments/pertemuan-6',
+      repo: BASE_URL + 'tree/main/assignments/pertemuan-6',
       practice: [
         {
           title: 'Latihan 1',
           link: './assignments/pertemuan-6/latihan/latihan-1.html',
-          repo: BASE_URL + 'assignments/pertemuan-6/latihan/latihan-1.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-6/latihan/latihan-1.html',
         },
         {
           title: 'Latihan 2',
           link: './assignments/pertemuan-6/latihan/latihan-2.html',
-          repo: BASE_URL + 'assignments/pertemuan-6/latihan/latihan-2.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-6/latihan/latihan-2.html',
         },
       ],
     },
@@ -127,17 +147,21 @@ const dataObject = {
       description:
         'Membuat dan menata data dalam bentuk tabel menggunakan tag &lt;table&gt;, &lt;thead&gt;, &lt;tbody&gt;, dan &lt;tr&gt;.',
       link: './assignments/pertemuan-7',
-      repo: BASE_URL + 'assignments/pertemuan-7',
+      repo: BASE_URL + 'tree/main/assignments/pertemuan-7',
       practice: [
         {
           title: 'Latihan 1',
           link: './assignments/pertemuan-7/latihan/latihan-1.html',
-          repo: BASE_URL + 'assignments/pertemuan-7/latihan/latihan-1.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-7/latihan/latihan-1.html',
         },
         {
           title: 'Latihan 2',
           link: './assignments/pertemuan-7/latihan/latihan-2.html',
-          repo: BASE_URL + 'assignments/pertemuan-7/latihan/latihan-2.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-7/latihan/latihan-2.html',
         },
       ],
     },
@@ -147,12 +171,14 @@ const dataObject = {
       description:
         'Membuat formulir isian sederhana menggunakan tag &lt;form&gt; dengan elemen input, textarea, dan tombol submit.',
       link: './assignments/pertemuan-8',
-      repo: BASE_URL + 'assignments/pertemuan-8',
+      repo: BASE_URL + 'tree/main/assignments/pertemuan-8',
       practice: [
         {
           title: 'Latihan 1',
           link: './assignments/pertemuan-8/latihan/latihan-1.html',
-          repo: BASE_URL + 'assignments/pertemuan-8/latihan/latihan-1.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-8/latihan/latihan-1.html',
         },
       ],
     },
@@ -162,12 +188,14 @@ const dataObject = {
       description:
         'Mempelajari cara membagi tampilan halaman menjadi beberapa bagian menggunakan elemen &lt;frame&gt;.',
       link: './assignments/pertemuan-9',
-      repo: BASE_URL + 'assignments/pertemuan-9',
+      repo: BASE_URL + 'tree/main/assignments/pertemuan-9',
       practice: [
         {
           title: 'Latihan 1',
           link: './assignments/pertemuan-9/latihan/latihan-1.html',
-          repo: BASE_URL + 'assignments/pertemuan-9/latihan/latihan-1.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-9/latihan/latihan-1.html',
         },
       ],
     },
@@ -177,17 +205,21 @@ const dataObject = {
       description:
         'Mempelajari cara menampilkan halaman web orang lain menggunakan tag &lt;iframe&gt;.',
       link: './assignments/pertemuan-10',
-      repo: BASE_URL + 'assignments/pertemuan-10',
+      repo: BASE_URL + 'tree/main/assignments/pertemuan-10',
       practice: [
         {
           title: 'Latihan 1',
           link: './assignments/pertemuan-10/latihan/latihan-1.html',
-          repo: BASE_URL + 'assignments/pertemuan-10/latihan/latihan-1.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-10/latihan/latihan-1.html',
         },
         {
           title: 'Latihan 2',
           link: './assignments/pertemuan-10/latihan/latihan-2.html',
-          repo: BASE_URL + 'assignments/pertemuan-10/latihan/latihan-2.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-10/latihan/latihan-2.html',
         },
       ],
     },
@@ -197,27 +229,35 @@ const dataObject = {
       description:
         'Mempelajari cara menggunakan CSS untuk mengatur tampilan halaman web.',
       link: './assignments/pertemuan-11',
-      repo: BASE_URL + 'assignments/pertemuan-11',
+      repo: BASE_URL + 'tree/main/assignments/pertemuan-11',
       practice: [
         {
           title: 'Latihan 1',
           link: './assignments/pertemuan-11/latihan/latihan-1.html',
-          repo: BASE_URL + 'assignments/pertemuan-11/latihan/latihan-1.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-11/latihan/latihan-1.html',
         },
         {
           title: 'Latihan 2',
           link: './assignments/pertemuan-11/latihan/latihan-2.html',
-          repo: BASE_URL + 'assignments/pertemuan-11/latihan/latihan-2.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-11/latihan/latihan-2.html',
         },
         {
           title: 'Latihan 3',
           link: './assignments/pertemuan-11/latihan/latihan-3.html',
-          repo: BASE_URL + 'assignments/pertemuan-11/latihan/latihan-3.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-11/latihan/latihan-3.html',
         },
         {
           title: 'Latihan 4',
           link: './assignments/pertemuan-11/latihan/latihan-4.html',
-          repo: BASE_URL + 'assignments/pertemuan-11/latihan/latihan-4.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-11/latihan/latihan-4.html',
         },
       ],
     },
@@ -227,17 +267,21 @@ const dataObject = {
       description:
         'Mempelajari cara menggunakan CSS class untuk mengatur tampilan halaman web.',
       link: './assignments/pertemuan-12',
-      repo: BASE_URL + 'assignments/pertemuan-12',
+      repo: BASE_URL + 'tree/main/assignments/pertemuan-12',
       practice: [
         {
           title: 'Latihan 1',
           link: './assignments/pertemuan-12/latihan/latihan-1.html',
-          repo: BASE_URL + 'assignments/pertemuan-12/latihan/latihan-1.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-12/latihan/latihan-1.html',
         },
         {
           title: 'Latihan 2',
           link: './assignments/pertemuan-12/latihan/latihan-2.html',
-          repo: BASE_URL + 'assignments/pertemuan-12/latihan/latihan-2.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-12/latihan/latihan-2.html',
         },
       ],
     },
@@ -247,32 +291,42 @@ const dataObject = {
       description:
         'Mempelajari cara menggunakan DIV untuk mengatur tampilan halaman web.',
       link: './assignments/pertemuan-13',
-      repo: BASE_URL + 'assignments/pertemuan-13',
+      repo: BASE_URL + 'tree/main/assignments/pertemuan-13',
       practice: [
         {
           title: 'Latihan 1',
           link: './assignments/pertemuan-13/latihan/latihan-1.html',
-          repo: BASE_URL + 'assignments/pertemuan-13/latihan/latihan-1.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-13/latihan/latihan-1.html',
         },
         {
           title: 'Latihan 2',
           link: './assignments/pertemuan-13/latihan/latihan-2.html',
-          repo: BASE_URL + 'assignments/pertemuan-13/latihan/latihan-2.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-13/latihan/latihan-2.html',
         },
         {
           title: 'Latihan 3',
           link: './assignments/pertemuan-13/latihan/latihan-3.html',
-          repo: BASE_URL + 'assignments/pertemuan-13/latihan/latihan-3.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-13/latihan/latihan-3.html',
         },
         {
           title: 'Latihan 4',
           link: './assignments/pertemuan-13/latihan/latihan-4.html',
-          repo: BASE_URL + 'assignments/pertemuan-13/latihan/latihan-4.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-13/latihan/latihan-4.html',
         },
         {
           title: 'Latihan 5',
           link: './assignments/pertemuan-13/latihan/latihan-5.html',
-          repo: BASE_URL + 'assignments/pertemuan-13/latihan/latihan-5.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-13/latihan/latihan-5.html',
         },
       ],
     },
@@ -282,17 +336,21 @@ const dataObject = {
       description:
         'Mempelajari dasar-dasar JavaScript seperti struktur penulisan dan variabel.',
       link: './assignments/pertemuan-14',
-      repo: BASE_URL + 'assignments/pertemuan-14',
+      repo: BASE_URL + 'tree/main/assignments/pertemuan-14',
       practice: [
         {
           title: 'Latihan 1',
           link: './assignments/pertemuan-14/latihan/latihan-1.html',
-          repo: BASE_URL + 'assignments/pertemuan-14/latihan/latihan-1.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-14/latihan/latihan-1.html',
         },
         {
           title: 'Latihan 2',
           link: './assignments/pertemuan-14/latihan/latihan-2.html',
-          repo: BASE_URL + 'assignments/pertemuan-14/latihan/latihan-2.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-14/latihan/latihan-2.html',
         },
       ],
     },
@@ -301,52 +359,70 @@ const dataObject = {
       title: 'Tugas 15 - Dialog Box',
       description: 'Mempelajari dialog box seperti alert, prompt, dan confirm.',
       link: './assignments/pertemuan-15',
-      repo: BASE_URL + 'assignments/pertemuan-15',
+      repo: BASE_URL + 'tree/main/assignments/pertemuan-15',
       practice: [
         {
           title: 'Latihan 1',
           link: './assignments/pertemuan-15/latihan/latihan-1.html',
-          repo: BASE_URL + 'assignments/pertemuan-15/latihan/latihan-1.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-15/latihan/latihan-1.html',
         },
         {
           title: 'Latihan 2',
           link: './assignments/pertemuan-15/latihan/latihan-2.html',
-          repo: BASE_URL + 'assignments/pertemuan-15/latihan/latihan-2.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-15/latihan/latihan-2.html',
         },
         {
           title: 'Latihan 3',
           link: './assignments/pertemuan-15/latihan/latihan-3.html',
-          repo: BASE_URL + 'assignments/pertemuan-15/latihan/latihan-3.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-15/latihan/latihan-3.html',
         },
         {
           title: 'Latihan 4',
           link: './assignments/pertemuan-15/latihan/latihan-4.html',
-          repo: BASE_URL + 'assignments/pertemuan-15/latihan/latihan-4.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-15/latihan/latihan-4.html',
         },
         {
           title: 'Latihan 5',
           link: './assignments/pertemuan-15/latihan/latihan-5.html',
-          repo: BASE_URL + 'assignments/pertemuan-15/latihan/latihan-5.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-15/latihan/latihan-5.html',
         },
         {
           title: 'Latihan 6',
           link: './assignments/pertemuan-15/latihan/latihan-6.html',
-          repo: BASE_URL + 'assignments/pertemuan-15/latihan/latihan-6.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-15/latihan/latihan-6.html',
         },
         {
           title: 'Latihan 7',
           link: './assignments/pertemuan-15/latihan/latihan-7.html',
-          repo: BASE_URL + 'assignments/pertemuan-15/latihan/latihan-7.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-15/latihan/latihan-7.html',
         },
         {
           title: 'Latihan 8',
           link: './assignments/pertemuan-15/latihan/latihan-8.html',
-          repo: BASE_URL + 'assignments/pertemuan-15/latihan/latihan-8.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-15/latihan/latihan-8.html',
         },
         {
           title: 'Latihan 9',
           link: './assignments/pertemuan-15/latihan/latihan-9.html',
-          repo: BASE_URL + 'assignments/pertemuan-15/latihan/latihan-9.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-15/latihan/latihan-9.html',
         },
       ],
     },
@@ -356,27 +432,35 @@ const dataObject = {
       description:
         'Mempelajari tipe data dan jenis-jenis operator dalam JavaScript.',
       link: './assignments/pertemuan-16',
-      repo: BASE_URL + 'assignments/pertemuan-16',
+      repo: BASE_URL + 'tree/main/assignments/pertemuan-16',
       practice: [
         {
           title: 'Latihan 1',
           link: './assignments/pertemuan-16/latihan/latihan-1.html',
-          repo: BASE_URL + 'assignments/pertemuan-16/latihan/latihan-1.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-16/latihan/latihan-1.html',
         },
         {
           title: 'Latihan 2',
           link: './assignments/pertemuan-16/latihan/latihan-2.html',
-          repo: BASE_URL + 'assignments/pertemuan-16/latihan/latihan-2.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-16/latihan/latihan-2.html',
         },
         {
           title: 'Latihan 3',
           link: './assignments/pertemuan-16/latihan/latihan-3.html',
-          repo: BASE_URL + 'assignments/pertemuan-16/latihan/latihan-3.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-16/latihan/latihan-3.html',
         },
         {
           title: 'Latihan 4',
           link: './assignments/pertemuan-16/latihan/latihan-4.html',
-          repo: BASE_URL + 'assignments/pertemuan-16/latihan/latihan-4.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-16/latihan/latihan-4.html',
         },
       ],
     },
@@ -386,52 +470,70 @@ const dataObject = {
       description:
         'Mempelajari cara membuat program dengan menggunakan struktur kendali dan looping.',
       link: './assignments/pertemuan-17',
-      repo: BASE_URL + 'assignments/pertemuan-17',
+      repo: BASE_URL + 'tree/main/assignments/pertemuan-17',
       practice: [
         {
           title: 'Latihan 1',
           link: './assignments/pertemuan-17/latihan/latihan-1.html',
-          repo: BASE_URL + 'assignments/pertemuan-17/latihan/latihan-1.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-17/latihan/latihan-1.html',
         },
         {
           title: 'Latihan 2',
           link: './assignments/pertemuan-17/latihan/latihan-2.html',
-          repo: BASE_URL + 'assignments/pertemuan-17/latihan/latihan-2.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-17/latihan/latihan-2.html',
         },
         {
           title: 'Latihan 3',
           link: './assignments/pertemuan-17/latihan/latihan-3.html',
-          repo: BASE_URL + 'assignments/pertemuan-17/latihan/latihan-3.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-17/latihan/latihan-3.html',
         },
         {
           title: 'Latihan 4',
           link: './assignments/pertemuan-17/latihan/latihan-4.html',
-          repo: BASE_URL + 'assignments/pertemuan-17/latihan/latihan-4.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-17/latihan/latihan-4.html',
         },
         {
           title: 'Latihan 5',
           link: './assignments/pertemuan-17/latihan/latihan-5.html',
-          repo: BASE_URL + 'assignments/pertemuan-17/latihan/latihan-5.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-17/latihan/latihan-5.html',
         },
         {
           title: 'Latihan 6',
           link: './assignments/pertemuan-17/latihan/latihan-6.html',
-          repo: BASE_URL + 'assignments/pertemuan-17/latihan/latihan-6.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-17/latihan/latihan-6.html',
         },
         {
           title: 'Latihan 7',
           link: './assignments/pertemuan-17/latihan/latihan-7.html',
-          repo: BASE_URL + 'assignments/pertemuan-17/latihan/latihan-7.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-17/latihan/latihan-7.html',
         },
         {
           title: 'Latihan 8',
           link: './assignments/pertemuan-17/latihan/latihan-8.html',
-          repo: BASE_URL + 'assignments/pertemuan-17/latihan/latihan-8.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-17/latihan/latihan-8.html',
         },
         {
           title: 'Latihan 9',
           link: './assignments/pertemuan-17/latihan/latihan-9.html',
-          repo: BASE_URL + 'assignments/pertemuan-17/latihan/latihan-9.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-17/latihan/latihan-9.html',
         },
       ],
     },
@@ -441,47 +543,63 @@ const dataObject = {
       description:
         'Memahami cara menggunakan function dan array dalam JavaScript.',
       link: './assignments/pertemuan-18',
-      repo: BASE_URL + 'assignments/pertemuan-18',
+      repo: BASE_URL + 'tree/main/assignments/pertemuan-18',
       practice: [
         {
           title: 'Latihan 1',
           link: './assignments/pertemuan-18/latihan/latihan-1.html',
-          repo: BASE_URL + 'assignments/pertemuan-18/latihan/latihan-1.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-18/latihan/latihan-1.html',
         },
         {
           title: 'Latihan 2',
           link: './assignments/pertemuan-18/latihan/latihan-2.html',
-          repo: BASE_URL + 'assignments/pertemuan-18/latihan/latihan-2.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-18/latihan/latihan-2.html',
         },
         {
           title: 'Latihan 3',
           link: './assignments/pertemuan-18/latihan/latihan-3.html',
-          repo: BASE_URL + 'assignments/pertemuan-18/latihan/latihan-3.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-18/latihan/latihan-3.html',
         },
         {
           title: 'Latihan 4',
           link: './assignments/pertemuan-18/latihan/latihan-4.html',
-          repo: BASE_URL + 'assignments/pertemuan-18/latihan/latihan-4.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-18/latihan/latihan-4.html',
         },
         {
           title: 'Latihan 5',
           link: './assignments/pertemuan-18/latihan/latihan-5.html',
-          repo: BASE_URL + 'assignments/pertemuan-18/latihan/latihan-5.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-18/latihan/latihan-5.html',
         },
         {
           title: 'Latihan 6',
           link: './assignments/pertemuan-18/latihan/latihan-6.html',
-          repo: BASE_URL + 'assignments/pertemuan-18/latihan/latihan-6.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-18/latihan/latihan-6.html',
         },
         {
           title: 'Latihan 7',
           link: './assignments/pertemuan-18/latihan/latihan-7.html',
-          repo: BASE_URL + 'assignments/pertemuan-18/latihan/latihan-7.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-18/latihan/latihan-7.html',
         },
         {
           title: 'Latihan 8',
           link: './assignments/pertemuan-18/latihan/latihan-8.html',
-          repo: BASE_URL + 'assignments/pertemuan-18/latihan/latihan-8.html',
+          repo:
+            BASE_URL +
+            'tree/main/assignments/pertemuan-18/latihan/latihan-8.html',
         },
       ],
     },
