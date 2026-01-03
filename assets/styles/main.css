@@ -14,6 +14,8 @@
 @import './components/layout/details-section/details.css';
 @import './components/layout/project-list-section/project-list.css';
 @import './components/layout/footer/footer.css';
+@import './components/layout/gallery-section/gallery.css';
 
 @import './components/pages/home.css';
 @import './components/pages/projects.css';
+@import './components/pages/gallery.css';
