@@ -31,7 +31,6 @@ class UiNavbar extends HTMLElement {
             <a href="/">Home</a>
             <a href="/projects.html">Projects</a>
             <a href="/gallery.html">Gallery</a>
-            <a href="/contact.html">Contact</a>
           </div>
         </div>
 
