@@ -25,28 +25,33 @@ const homeData = {
     {
       title: 'Daily Dua',
       image: '/assets/images/daily-dua.jpg',
-      link: 'https://example.com/project1',
+      link: 'https://daily-dua-omega.vercel.app/',
+      repo: 'https://github.com/adrianahaz/daily-dua',
     },
     {
       title: 'Makan Kuy',
       image: '/assets/images/makan-kuy.jpg',
-      link: 'https://example.com/project2',
+      link: 'https://makankuy-restaurant-app.netlify.app/',
+      repo: 'https://github.com/adrianahaz/restaurant-app-dicoding',
     },
     {
       title: 'Bookshelf API',
       image: '/assets/images/bookshelf-api.jpg',
-      link: 'https://example.com/project2',
+      link: 'https://github.com/adrianahaz/nodejs-bookshelf-api',
+      repo: 'https://github.com/adrianahaz/nodejs-bookshelf-api',
     },
   ],
   stack: ['HTML', 'CSS', 'JavaScript', 'Svelte', 'Node.js'],
   education: [
     {
       title: 'Informatics Engineering',
-      date: 'Sep 2022 - Jun 2025',
+      institution: 'Universitas Pamulang',
+      date: 'Aug 2023 - Now',
     },
     {
-      title: 'High School',
-      date: 'Sep 2018 - Jun 2022',
+      title: 'Computer Network Engineering',
+      institution: 'SMKS Prima Unggul',
+      date: 'Jun 2020 - Jul 2023',
     },
   ],
 };

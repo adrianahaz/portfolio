@@ -1,5 +1,6 @@
 // Pages
 import './components/pages/home.js';
+import './components/pages/projects.js';
 
 // Layout
 import './components/layout/about-section/about.js';
@@ -8,6 +9,8 @@ import './components/layout/project-section/project.js';
 import './components/layout/education-section/education.js';
 import './components/layout/stack-section/stack.js';
 import './components/layout/details-section/details.js';
+import './components/layout/project-list-section/project-list.js';
+import './components/layout/footer/footer.js';
 
 // UI
 import './components/ui/navbar/navbar.js';

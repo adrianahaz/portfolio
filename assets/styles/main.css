@@ -12,5 +12,8 @@
 @import './components/layout/education-section/education.css';
 @import './components/layout/stack-section/stack.css';
 @import './components/layout/details-section/details.css';
+@import './components/layout/project-list-section/project-list.css';
+@import './components/layout/footer/footer.css';
 
 @import './components/pages/home.css';
+@import './components/pages/projects.css';
